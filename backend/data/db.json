@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "mpput5mt24txzjlpou7",
+      "name": "manue",
+      "email": "test@gmail.com",
+      "password": "$2a$10$9lWchexFuCmTJdeyUgEz.e7eXZoFIe.HECap6B6SEc0rT7NEh0Yra",
+      "created_at": "2026-05-28T18:56:11.780Z"
+    },
+    {
+      "id": "mppw9wm0enp5dak3ki",
+      "name": "manu",
+      "email": "test@gmail",
+      "password": "$2a$10$ZWwwSr9gzD2uzgWKolaxzelKsqxNpq.og1rI3mZlroXXdFP.guP4W",
+      "created_at": "2026-05-28T19:37:12.856Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "mpputmi65af3f6ugm3n",
+      "name": "web",
+      "description": "",
+      "color": "#ec4899",
+      "status": "active",
+      "deadline": "",
+      "owner_id": "mpput5mt24txzjlpou7",
+      "created_at": "2026-05-28T18:56:33.582Z"
+    },
+    {
+      "id": "mppwa7imwwm1098oarg",
+      "name": "web",
+      "description": "",
+      "color": "#3b82f6",
+      "status": "active",
+      "deadline": "2026-06-06",
+      "owner_id": "mppw9wm0enp5dak3ki",
+      "created_at": "2026-05-28T19:37:26.926Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "mppzx11drw7u8j0ht2",
+      "title": "qw",
+      "description": "",
+      "status": "todo",
+      "priority": "medium",
+      "due_date": "2026-06-06",
+      "tags": [],
+      "project_id": "mppwa7imwwm1098oarg",
+      "created_by": "mppw9wm0enp5dak3ki",
+      "created_at": "2026-05-28T21:19:10.465Z"
+    }
+  ]
+}
